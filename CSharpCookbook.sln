@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Returning.Multiple.Values.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.From.Legacy.To.Strongly.Typed", "Constrcting_Types_And_Apps\Convert.From.Legacy.To.Strongly.Typed\Convert.From.Legacy.To.Strongly.Typed.csproj", "{69E2C040-CAC2-4D2C-AE35-218000402AA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Making.Classes.Adapt.To.Your.Interface", "Constrcting_Types_And_Apps\Making.Classes.Adapt.To.Your.Interface\Making.Classes.Adapt.To.Your.Interface.csproj", "{3A678CC6-05CD-1048-C001-406133B404AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{69E2C040-CAC2-4D2C-AE35-218000402AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E2C040-CAC2-4D2C-AE35-218000402AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E2C040-CAC2-4D2C-AE35-218000402AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A678CC6-05CD-1048-C001-406133B404AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A678CC6-05CD-1048-C001-406133B404AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A678CC6-05CD-1048-C001-406133B404AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A678CC6-05CD-1048-C001-406133B404AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{9F972511-0F77-45EC-B510-80C0A70EB370} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 		{82DFE554-6146-4043-80D5-4BE2EDFA85FF} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 		{69E2C040-CAC2-4D2C-AE35-218000402AA4} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
+		{3A678CC6-05CD-1048-C001-406133B404AA} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
