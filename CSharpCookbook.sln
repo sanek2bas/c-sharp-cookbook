@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.From.Legacy.To.Stro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Making.Classes.Adapt.To.Your.Interface", "Constrcting_Types_And_Apps\Making.Classes.Adapt.To.Your.Interface\Making.Classes.Adapt.To.Your.Interface.csproj", "{3A678CC6-05CD-1048-C001-406133B404AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Custom.Exception", "Constrcting_Types_And_Apps\Designing.Custom.Exception\Designing.Custom.Exception.csproj", "{36C6DB66-E54E-48D6-9498-383B137D11F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{3A678CC6-05CD-1048-C001-406133B404AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A678CC6-05CD-1048-C001-406133B404AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A678CC6-05CD-1048-C001-406133B404AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C6DB66-E54E-48D6-9498-383B137D11F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C6DB66-E54E-48D6-9498-383B137D11F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C6DB66-E54E-48D6-9498-383B137D11F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C6DB66-E54E-48D6-9498-383B137D11F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{82DFE554-6146-4043-80D5-4BE2EDFA85FF} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 		{69E2C040-CAC2-4D2C-AE35-218000402AA4} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 		{3A678CC6-05CD-1048-C001-406133B404AA} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
+		{36C6DB66-E54E-48D6-9498-383B137D11F1} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
