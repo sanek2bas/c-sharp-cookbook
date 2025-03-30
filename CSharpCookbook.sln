@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.To.Method", "Constrcting_Types_And_Apps\Delegating.Object.Creation.To.Method\Delegating.Object.Creation.To.Method.csproj", "{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Application.Layers", "Constrcting_Types_And_Apps\Designing.Application.Layers\Designing.Application.Layers.csproj", "{9F972511-0F77-45EC-B510-80C0A70EB370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F972511-0F77-45EC-B510-80C0A70EB370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F972511-0F77-45EC-B510-80C0A70EB370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F972511-0F77-45EC-B510-80C0A70EB370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F972511-0F77-45EC-B510-80C0A70EB370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{AF9F963A-4651-44CC-A21B-01E347FB0300} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{14F36161-EFA5-45C2-B293-BD006717713C} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 		{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
+		{9F972511-0F77-45EC-B510-80C0A70EB370} = {4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
