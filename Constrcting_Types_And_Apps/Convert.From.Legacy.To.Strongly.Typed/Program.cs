@@ -2,6 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        new HealthChecksObjects().PerformHealthChecks(5);
+        new HealthChecksGeneric().PerformHealthChecks(5);
     }
 }
