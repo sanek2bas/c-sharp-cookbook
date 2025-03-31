@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converting.From.To.Unix.Tim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching.Frequently.Requested.Data", "Coding_Algorithms\Caching.Frequently.Requested.Data\Caching.Frequently.Requested.Data.csproj", "{FD4F08FB-4B63-4F0F-8518-D203B2CB9605}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delaying.Type.Instantiation", "Coding_Algorithms\Delaying.Type.Instantiation\Delaying.Type.Instantiation.csproj", "{310E01AD-2DFC-40A5-98D1-A74AB9B3038D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{FD4F08FB-4B63-4F0F-8518-D203B2CB9605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4F08FB-4B63-4F0F-8518-D203B2CB9605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4F08FB-4B63-4F0F-8518-D203B2CB9605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310E01AD-2DFC-40A5-98D1-A74AB9B3038D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310E01AD-2DFC-40A5-98D1-A74AB9B3038D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310E01AD-2DFC-40A5-98D1-A74AB9B3038D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310E01AD-2DFC-40A5-98D1-A74AB9B3038D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{A29209CA-0324-4FE3-A9F3-A490C71E9AC8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E5F9F043-B24F-4761-91BF-2F8BD6C8D7B3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FD4F08FB-4B63-4F0F-8518-D203B2CB9605} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{310E01AD-2DFC-40A5-98D1-A74AB9B3038D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
