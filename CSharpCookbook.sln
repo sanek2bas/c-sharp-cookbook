@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Querying_With_LINQ", "Query
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transforming.Object.Shape", "Querying_With_LINQ\Transforming.Object.Shape\Transforming.Object.Shape.csproj", "{682CDB2E-4689-4694-BBFA-DAF0D3D6BCEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joining.Data", "Querying_With_LINQ\Joining.Data\Joining.Data.csproj", "{68A7AF2F-5466-4D38-A9C0-DA92C3B89072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{682CDB2E-4689-4694-BBFA-DAF0D3D6BCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682CDB2E-4689-4694-BBFA-DAF0D3D6BCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682CDB2E-4689-4694-BBFA-DAF0D3D6BCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A7AF2F-5466-4D38-A9C0-DA92C3B89072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A7AF2F-5466-4D38-A9C0-DA92C3B89072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A7AF2F-5466-4D38-A9C0-DA92C3B89072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A7AF2F-5466-4D38-A9C0-DA92C3B89072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -225,6 +231,7 @@ Global
 		{7722CB08-108E-42D9-865F-8477EA08FC4C} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{059E6468-A998-48E2-8B5E-A071A953C848} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{682CDB2E-4689-4694-BBFA-DAF0D3D6BCEE} = {92987AE0-E147-4999-89E8-B415D1B09090}
+		{68A7AF2F-5466-4D38-A9C0-DA92C3B89072} = {92987AE0-E147-4999-89E8-B415D1B09090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
