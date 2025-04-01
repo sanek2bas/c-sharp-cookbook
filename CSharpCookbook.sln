@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rethrowing.Exceptions", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing.Process.Status", "Ensuring_Quality\Managing.Process.Status\Managing.Process.Status.csproj", "{99630D83-53A6-43A8-B3CD-7C577A2A433D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building.Resilient.Network.Connections", "Ensuring_Quality\Building.Resilient.Network.Connections\Building.Resilient.Network.Connections.csproj", "{7722CB08-108E-42D9-865F-8477EA08FC4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{99630D83-53A6-43A8-B3CD-7C577A2A433D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99630D83-53A6-43A8-B3CD-7C577A2A433D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99630D83-53A6-43A8-B3CD-7C577A2A433D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7722CB08-108E-42D9-865F-8477EA08FC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7722CB08-108E-42D9-865F-8477EA08FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7722CB08-108E-42D9-865F-8477EA08FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7722CB08-108E-42D9-865F-8477EA08FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +208,7 @@ Global
 		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{75496608-2E0E-4322-BBD3-6C78C32CD6AE} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{99630D83-53A6-43A8-B3CD-7C577A2A433D} = {C41269C9-370E-47BD-838B-435084FA47E0}
+		{7722CB08-108E-42D9-865F-8477EA08FC4C} = {C41269C9-370E-47BD-838B-435084FA47E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
