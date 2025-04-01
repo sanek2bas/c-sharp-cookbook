@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protecting.Code.From.NullRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avoiding.Magic.Strings", "Ensuring_Quality\Avoiding.Magic.Strings\Avoiding.Magic.Strings.csproj", "{BC1AB5B5-B97B-4760-B658-3BB643CF208F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customizing.Class.String.Representation", "Ensuring_Quality\Customizing.Class.String.Representation\Customizing.Class.String.Representation.csproj", "{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{E7246D03-7937-49CF-98E8-E2AF163A5B55} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{BFE9362F-6115-4F7C-A792-81BEACCCDA51} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{BC1AB5B5-B97B-4760-B658-3BB643CF208F} = {C41269C9-370E-47BD-838B-435084FA47E0}
+		{E2F4FED6-19E2-47AA-9E85-E94ED3CB0D36} = {C41269C9-370E-47BD-838B-435084FA47E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
