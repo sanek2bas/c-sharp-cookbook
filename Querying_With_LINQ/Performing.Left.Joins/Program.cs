@@ -1,4 +1,4 @@
-﻿using Joining.Data;
+﻿using Performing.Left.Joins;
 
 internal class Program
 {
@@ -6,23 +6,25 @@ internal class Program
     {
         var context = new InMemoryContext();
 
-        var salesProducts = 
+        var salesProducts =
             (from product in context.Products
              join person in context.SalesPeople on
              (product.Region, product.Type)
              equals
              (person.Region, person.ProductType)
+             into prodPersonTemp
+             from prodPerson in prodPersonTemp.DefaultIfEmpty()
              select new
              {
-                 Person = person.Name,
+                 Person = prodPerson?.Name ?? "(none)",
                  Product = product.Name,
                  product.Region,
                  product.Type
              })
              .ToList();
-
+        
         Console.WriteLine("Sales People\n");
-        salesProducts.ForEach(salesProd => 
+        salesProducts.ForEach(salesProd =>
             Console.WriteLine(
                 $"Person: {salesProd.Person}\n" +
                 $"Product: {salesProd.Product}\n" +
