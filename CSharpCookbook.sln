@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versioning.Interfaces.Safel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protecting.Code.From.NullReferenceException", "Ensuring_Quality\Protecting.Code.From.NullReferenceException\Protecting.Code.From.NullReferenceException.csproj", "{BFE9362F-6115-4F7C-A792-81BEACCCDA51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avoiding.Magic.Strings", "Ensuring_Quality\Avoiding.Magic.Strings\Avoiding.Magic.Strings.csproj", "{BC1AB5B5-B97B-4760-B658-3BB643CF208F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{BFE9362F-6115-4F7C-A792-81BEACCCDA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE9362F-6115-4F7C-A792-81BEACCCDA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE9362F-6115-4F7C-A792-81BEACCCDA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1AB5B5-B97B-4760-B658-3BB643CF208F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{2A078341-59E2-4D40-9B2F-3D70D82D6137} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E7246D03-7937-49CF-98E8-E2AF163A5B55} = {C41269C9-370E-47BD-838B-435084FA47E0}
 		{BFE9362F-6115-4F7C-A792-81BEACCCDA51} = {C41269C9-370E-47BD-838B-435084FA47E0}
+		{BC1AB5B5-B97B-4760-B658-3BB643CF208F} = {C41269C9-370E-47BD-838B-435084FA47E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
