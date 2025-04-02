@@ -11,7 +11,8 @@ namespace Querying.Distinct.Objects
 
         public int GetHashCode([DisallowNull] SalesPerson obj)
         {
-            return obj == null ? 0 : obj.GetHashCode();
+            //return obj == null ? 0 : obj.GetHashCode();
+            return obj == null ? 0 : obj.ID.GetHashCode();
         }
     }
 }

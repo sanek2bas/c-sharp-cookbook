@@ -14,10 +14,11 @@ internal class Program
 
         PrintResults(salesPeopleWithoutComparer, "Without Comparer");
 
+        var comparer = new SalesPersonComparer();
         var salesPeopleWithComparer =
             (from person in context.SalesPeople
              select person)
-             .Distinct(new SalesPersonComparer())
+             .Distinct(comparer)
              .ToList();
 
         PrintResults(salesPeopleWithComparer, "With Comparer");
