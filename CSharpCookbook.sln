@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grouping.Data", "Querying_W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building.Incremental.Queries", "Querying_With_LINQ\Building.Incremental.Queries\Building.Incremental.Queries.csproj", "{1C7F92D7-B4ED-4F37-993F-36A7658BD8E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying.Distinct.Objects", "Querying_With_LINQ\Querying.Distinct.Objects\Querying.Distinct.Objects.csproj", "{E929C3A9-E451-4491-9DCB-FCD9DE99A311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +217,10 @@ Global
 		{1C7F92D7-B4ED-4F37-993F-36A7658BD8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7F92D7-B4ED-4F37-993F-36A7658BD8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7F92D7-B4ED-4F37-993F-36A7658BD8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E929C3A9-E451-4491-9DCB-FCD9DE99A311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E929C3A9-E451-4491-9DCB-FCD9DE99A311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E929C3A9-E451-4491-9DCB-FCD9DE99A311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E929C3A9-E451-4491-9DCB-FCD9DE99A311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +259,7 @@ Global
 		{A3B37C98-0653-40E0-92A4-C5D222C4EF13} = {92987AE0-E147-4999-89E8-B415D1B09090}
 		{485A6BE6-0BCB-4C28-9977-7B21106F73B7} = {92987AE0-E147-4999-89E8-B415D1B09090}
 		{1C7F92D7-B4ED-4F37-993F-36A7658BD8E7} = {92987AE0-E147-4999-89E8-B415D1B09090}
+		{E929C3A9-E451-4491-9DCB-FCD9DE99A311} = {92987AE0-E147-4999-89E8-B415D1B09090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
