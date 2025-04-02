@@ -80,7 +80,7 @@ internal class Program
         PrintResults(union, "Intersect Results");
     }
 
-    static void PrintResults(List<SalesPerson> salesPeople, string title)
+    private static void PrintResults(List<SalesPerson> salesPeople, string title)
     {
         Console.WriteLine($"\n{title}\n");
         salesPeople.ForEach(person =>
