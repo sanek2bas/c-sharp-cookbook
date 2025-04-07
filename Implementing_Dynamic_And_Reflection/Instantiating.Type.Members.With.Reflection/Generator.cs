@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Instantiating.Type.Members.With.Reflection
 {
@@ -28,7 +24,7 @@ namespace Instantiating.Type.Members.With.Reflection
         Dictionary<string, ColumnDetail> GetColumnDetails(List<TData> items)
         {
             TData itemInstance = items.First();
-            Type itemType = itemInstance.GetType();
+            System.Type itemType = itemInstance.GetType();
             PropertyInfo[] itemProperties = itemType.GetProperties();
             return
             (from prop in itemProperties
@@ -44,6 +40,7 @@ namespace Instantiating.Type.Members.With.Reflection
             key => key.Name,
             val => val);
         }
+
         protected List<string> GetColumns(IEnumerable<ColumnDetail> details, TData item)
         {
             var columns = new List<string>();
@@ -55,7 +52,7 @@ namespace Instantiating.Type.Members.With.Reflection
                 detail.Attribute.Format) ?
                 "{0}" :
                 detail.Attribute.Format;
-                (object result, Type columnType) =
+                (object result, System.Type columnType) =
                 GetReflectedResult(item, member);
                 switch (columnType.Name)
                 {
@@ -77,6 +74,7 @@ namespace Instantiating.Type.Members.With.Reflection
             }
             return columns;
         }
+
         private (object, System.Type) GetReflectedResult(TData item, PropertyInfo property)
         {
             object result = property.GetValue(item);
@@ -84,4 +82,87 @@ namespace Instantiating.Type.Members.With.Reflection
             return (result, type);
         }
     }
+
+    public class MarkdownGenerator<TData> : GeneratorBase<TData>
+    {
+        const string ColumnSeparator = " | ";
+
+        protected override StringBuilder GetTitle()
+        {
+            return new StringBuilder("# Report\n\n");
+        }
+
+        protected override StringBuilder GetHeaders(
+            Dictionary<string, ColumnDetail> details)
+        {
+            var header = new StringBuilder();
+            header.AppendJoin(
+                ColumnSeparator,
+                from detail in details.Values
+                select detail.Attribute.Name);
+            header.Append("\n");
+            header.AppendJoin(
+                ColumnSeparator,
+                from detail in details.Values
+                let length = detail.Attribute.Name.Length
+                select "".PadLeft(length, '-'));
+            header.Append("\n");
+            return header;
+        }
+
+        protected override StringBuilder GetRows(
+            List<TData> items,
+            Dictionary<string, ColumnDetail> details)
+        {
+            var rows = new StringBuilder();
+            foreach (var item in items)
+            {
+                List<string> columns =
+                GetColumns(details.Values, item);
+                rows.AppendJoin(ColumnSeparator, columns);
+                rows.Append("\n");
+            }
+            return rows;
+        }
+    }
+
+    public class HtmlGenerator<TData> : GeneratorBase<TData>
+    {
+        protected override StringBuilder GetTitle()
+        {
+            return new StringBuilder("<h1>Report</h1>\n");
+        }
+        protected override StringBuilder GetHeaders(
+            Dictionary<string, ColumnDetail> details)
+        {
+            var header = new StringBuilder("<tr>\n");
+            header.AppendJoin(
+                "\n",
+                from detail in details.Values
+                let columnName = detail.Attribute.Name
+                select $" <th>{columnName}</th>");
+            header.Append("\n</tr>\n");
+            return header;
+        }
+
+        protected override StringBuilder GetRows(
+            List<TData> items,
+            Dictionary<string, ColumnDetail> details)
+        {
+            StringBuilder rows = new StringBuilder();
+            System.Type itemType = items.First().GetType();
+            foreach (var item in items)
+            {
+                rows.Append("<tr>\n");
+                List<string> columns =
+                    GetColumns(details.Values, item);
+                rows.AppendJoin(
+                    "\n",
+                    from columnValue in columns
+                    select $" <td>{columnValue}</td>");
+                rows.Append("\n</tr>\n");
+            }
+            return rows;
+        }
+    }    
 }
