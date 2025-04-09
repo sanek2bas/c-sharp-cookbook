@@ -1,15 +1,14 @@
 ﻿using Calling.Python.Code.From.C.Sharp;
 using IronPython.Hosting;
+using Microsoft.Scripting.Hosting;
 
 internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         List<object> tweets = GetTweets();
-
         string report = new Report().Generate(tweets);
-
-        Console.WriteLine(report);
+        Console.WriteLine("report");
     }
 
     private static List<object> GetTweets()
@@ -52,5 +51,5 @@ internal class Program
     {
         bool result = semantic.Eval(text);
         return result ? "Positive" : "Negative";
-    }
+    }	
 }

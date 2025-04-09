@@ -149,7 +149,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating.An.Inherently.Dyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding.And.Removing.Type.Members", "Implementing_Dynamic_And_Reflection\Adding.And.Removing.Type.Members\Adding.And.Removing.Type.Members.csproj", "{5312E22C-07C1-43A4-8913-78AEFBB13866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calling.Python.Code.From.C.Sharp", "Implementing_Dynamic_And_Reflection\Calling_Python_Code _From_C_Sharp\Calling.Python.Code.From.C.Sharp.csproj", "{6FC78E5A-D4F5-40B4-A036-D24C145C2CBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calling.Python.Code.From.C.Sharp", "Implementing_Dynamic_And_Reflection\Calling.Python.Code.From.C.Sharp\Calling.Python.Code.From.C.Sharp.csproj", "{6FC78E5A-D4F5-40B4-A036-D24C145C2CBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
