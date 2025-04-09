@@ -2,9 +2,9 @@
 using IronPython.Hosting;
 using Microsoft.Scripting.Hosting;
 
-internal class Program
+internal partial class Program
 {
-    private static void Main(string[] args)
+    static void Main(string[] args)
     {
         List<object> tweets = GetTweets();
         string report = new Report().Generate(tweets);
@@ -51,5 +51,5 @@ internal class Program
     {
         bool result = semantic.Eval(text);
         return result ? "Positive" : "Negative";
-    }	
+    }
 }
