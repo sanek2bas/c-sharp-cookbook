@@ -1,8 +1,9 @@
 ﻿using Calling.Python.Code.From.C.Sharp;
-using IronPython.Hosting;
+using IronPython.Compiler;
 using Microsoft.Scripting.Hosting;
+using Python.Runtime;
 
-internal partial class Program
+internal class Program
 {
     static void Main(string[] args)
     {

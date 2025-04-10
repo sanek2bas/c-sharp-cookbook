@@ -28,6 +28,9 @@
     <Reference Include="Microsoft.Scripting.Metadata">
       <HintPath>..\..\DLL\Microsoft.Scripting.Metadata.dll</HintPath>
     </Reference>
+    <Reference Include="Python.Runtime">
+      <HintPath>..\..\DLL\Python.Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
