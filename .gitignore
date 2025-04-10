@@ -152,3 +152,5 @@ Programming_Asynchronously/Reducing.Memory.Allocations.For.Async/bin/
 Programming_Asynchronously/Reducing.Memory.Allocations.For.Async/obj/
 Programming_Asynchronously/Creating.Async.Iterators/bin/
 Programming_Asynchronously/Creating.Async.Iterators/obj/
+Programming_Asynchronously/Writing.Safe.Async.Libraries/bin/
+Programming_Asynchronously/Writing.Safe.Async.Libraries/obj/
