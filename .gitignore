@@ -160,3 +160,5 @@ Programming_Asynchronously/Calling.Synchronous.Code.From.Async/bin/
 Programming_Asynchronously/Calling.Synchronous.Code.From.Async/obj/
 Programming_Asynchronously/Waiting.For.Parallel.Tasks.To.Complete/bin/
 Programming_Asynchronously/Waiting.For.Parallel.Tasks.To.Complete/obj/
+Programming_Asynchronously/Handling.Parallel.Tasks.As.They.Complete/bin/
+Programming_Asynchronously/Handling.Parallel.Tasks.As.They.Complete/obj/
