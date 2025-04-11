@@ -2,7 +2,7 @@
 {
     private static async Task Main(string[] args)
     {
-        var fileName = "DeploymentReport.txt";
+        var fileName = "MyFile.txt";
         var baseDirectory = GetDataFolder(AppDomain.CurrentDomain.BaseDirectory, 
                                           AppDomain.CurrentDomain.FriendlyName);
         var filepath = $"{baseDirectory}\\{fileName}";
