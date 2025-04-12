@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constrcting_Types_And_Apps", "Constrcting_Types_And_Apps", "{4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructing_Types_And_Apps", "Constructing_Types_And_Apps", "{4E95C097-ECE4-4650-BEB9-B3AC2BDBE6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing.Object.End.Of.Lifetime", "Constrcting_Types_And_Apps\Managing.Object.End.Of.Lifetime\Managing.Object.End.Of.Lifetime.csproj", "{2B05CADD-2EFC-466D-8685-73E519FA8908}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing.Object.End.Of.Lifetime", "Constructing_Types_And_Apps\Managing.Object.End.Of.Lifetime\Managing.Object.End.Of.Lifetime.csproj", "{2B05CADD-2EFC-466D-8685-73E519FA8908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Removing.Explicit.Dependencies", "Constrcting_Types_And_Apps\Removing.Explicit.Dependencies\Removing.Explicit.Dependencies.csproj", "{75CDAEF5-15B0-43A0-97EC-AF3A00CD9750}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Removing.Explicit.Dependencies", "Constructing_Types_And_Apps\Removing.Explicit.Dependencies\Removing.Explicit.Dependencies.csproj", "{75CDAEF5-15B0-43A0-97EC-AF3A00CD9750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.To.Class", "Constrcting_Types_And_Apps\Delegating.Object.Creation.To.Class\Delegating.Object.Creation.To.Class.csproj", "{14F36161-EFA5-45C2-B293-BD006717713C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.To.Class", "Constructing_Types_And_Apps\Delegating.Object.Creation.To.Class\Delegating.Object.Creation.To.Class.csproj", "{14F36161-EFA5-45C2-B293-BD006717713C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.To.Method", "Constrcting_Types_And_Apps\Delegating.Object.Creation.To.Method\Delegating.Object.Creation.To.Method.csproj", "{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegating.Object.Creation.To.Method", "Constructing_Types_And_Apps\Delegating.Object.Creation.To.Method\Delegating.Object.Creation.To.Method.csproj", "{FA6189DE-BD06-4E0F-9D70-5B2AE3993F9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Application.Layers", "Constrcting_Types_And_Apps\Designing.Application.Layers\Designing.Application.Layers.csproj", "{9F972511-0F77-45EC-B510-80C0A70EB370}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Application.Layers", "Constructing_Types_And_Apps\Designing.Application.Layers\Designing.Application.Layers.csproj", "{9F972511-0F77-45EC-B510-80C0A70EB370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Returning.Multiple.Values.From.Method", "Constrcting_Types_And_Apps\Returning.Multiple.Values.From.Method\Returning.Multiple.Values.From.Method.csproj", "{82DFE554-6146-4043-80D5-4BE2EDFA85FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Returning.Multiple.Values.From.Method", "Constructing_Types_And_Apps\Returning.Multiple.Values.From.Method\Returning.Multiple.Values.From.Method.csproj", "{82DFE554-6146-4043-80D5-4BE2EDFA85FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.From.Legacy.To.Strongly.Typed", "Constrcting_Types_And_Apps\Convert.From.Legacy.To.Strongly.Typed\Convert.From.Legacy.To.Strongly.Typed.csproj", "{69E2C040-CAC2-4D2C-AE35-218000402AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.From.Legacy.To.Strongly.Typed", "Constructing_Types_And_Apps\Convert.From.Legacy.To.Strongly.Typed\Convert.From.Legacy.To.Strongly.Typed.csproj", "{69E2C040-CAC2-4D2C-AE35-218000402AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Making.Classes.Adapt.To.Your.Interface", "Constrcting_Types_And_Apps\Making.Classes.Adapt.To.Your.Interface\Making.Classes.Adapt.To.Your.Interface.csproj", "{3A678CC6-05CD-1048-C001-406133B404AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Making.Classes.Adapt.To.Your.Interface", "Constructing_Types_And_Apps\Making.Classes.Adapt.To.Your.Interface\Making.Classes.Adapt.To.Your.Interface.csproj", "{3A678CC6-05CD-1048-C001-406133B404AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Custom.Exception", "Constrcting_Types_And_Apps\Designing.Custom.Exception\Designing.Custom.Exception.csproj", "{36C6DB66-E54E-48D6-9498-383B137D11F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing.Custom.Exception", "Constructing_Types_And_Apps\Designing.Custom.Exception\Designing.Custom.Exception.csproj", "{36C6DB66-E54E-48D6-9498-383B137D11F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructing.Objects.With.Complex", "Constrcting_Types_And_Apps\Constructing.Objects.With.Complex\Constructing.Objects.With.Complex.csproj", "{A043F99D-9DFF-45C8-AACA-F104A0583EF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructing.Objects.With.Complex", "Constructing_Types_And_Apps\Constructing.Objects.With.Complex\Constructing.Objects.With.Complex.csproj", "{A043F99D-9DFF-45C8-AACA-F104A0583EF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coding_Algorithms", "Coding_Algorithms", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
