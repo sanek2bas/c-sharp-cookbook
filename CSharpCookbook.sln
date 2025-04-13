@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypting.And.Decrypting.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiding.Development.Secrets", "Manipulating_Data\Hiding.Development.Secrets\Hiding.Development.Secrets.csproj", "{3BCF4468-7432-45FA-A84E-6B8AAAB981AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producing.JSON", "Manipulating_Data\Producing.JSON\Producing.JSON.csproj", "{301E960E-C9AE-4CF4-9FC6-BB181B373758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1151,6 +1153,18 @@ Global
 		{3BCF4468-7432-45FA-A84E-6B8AAAB981AA}.Release|x64.Build.0 = Release|Any CPU
 		{3BCF4468-7432-45FA-A84E-6B8AAAB981AA}.Release|x86.ActiveCfg = Release|Any CPU
 		{3BCF4468-7432-45FA-A84E-6B8AAAB981AA}.Release|x86.Build.0 = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|x64.Build.0 = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Debug|x86.Build.0 = Debug|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|x64.ActiveCfg = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|x64.Build.0 = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|x86.ActiveCfg = Release|Any CPU
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1236,6 +1250,7 @@ Global
 		{1AE54EC6-484E-4E4E-80FD-6958F50E3F95} = {6EF31B7E-CF39-3512-77F3-9A518A6ED286}
 		{45113E4B-D113-46D3-AB5B-DF0752085926} = {8286F5BA-2016-401B-8551-79E565730F02}
 		{3BCF4468-7432-45FA-A84E-6B8AAAB981AA} = {8286F5BA-2016-401B-8551-79E565730F02}
+		{301E960E-C9AE-4CF4-9FC6-BB181B373758} = {8286F5BA-2016-401B-8551-79E565730F02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6D5F315-869D-49C2-A7EE-EDB6229CC326}
