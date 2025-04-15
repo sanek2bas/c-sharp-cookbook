@@ -1,18 +1,17 @@
 ﻿using Calling.Python.Code.From.C.Sharp;
-using IronPython.Compiler;
+using IronPython.Hosting;
 using Microsoft.Scripting.Hosting;
-using Python.Runtime;
 
 internal class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         List<object> tweets = GetTweets();
         string report = new Report().Generate(tweets);
         Console.WriteLine("report");
     }
 
-    private static List<object> GetTweets()
+    static List<object> GetTweets()
     {
         ScriptRuntime py = Python.CreateRuntime();
         dynamic semantic = py.UseFile("../../../Semantic.py");

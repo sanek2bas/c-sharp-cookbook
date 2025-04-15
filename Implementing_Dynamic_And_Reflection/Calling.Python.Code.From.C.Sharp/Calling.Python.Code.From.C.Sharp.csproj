@@ -13,24 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="IronPython">
-      <HintPath>..\..\DLL\IronPython.dll</HintPath>
-    </Reference>
-    <Reference Include="IronPython.Modules">
-      <HintPath>..\..\DLL\IronPython.Modules.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Dynamic">
-      <HintPath>..\..\DLL\Microsoft.Dynamic.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Scripting">
-      <HintPath>..\..\DLL\Microsoft.Scripting.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Scripting.Metadata">
-      <HintPath>..\..\DLL\Microsoft.Scripting.Metadata.dll</HintPath>
-    </Reference>
-    <Reference Include="Python.Runtime">
-      <HintPath>..\..\DLL\Python.Runtime.dll</HintPath>
-    </Reference>
+    <PackageReference Include="IronPython" Version="3.4.2" />
+    <PackageReference Include="IronPython.StdLib" Version="3.4.2" />
   </ItemGroup>
 
 </Project>
